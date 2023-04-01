@@ -1,0 +1,32 @@
+@media screen and (max-width:390px) {
+  header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .container__articles {
+    width: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    .articles__main {
+      width: auto;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    .articles__others {
+      width: auto;
+      height:auto;
+    }
+}
+
+
+
+
+
+

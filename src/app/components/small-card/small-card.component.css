@@ -14,10 +14,12 @@
 }
 
 .small-card__photo > a > img {
-  width: 100%;
-  min-width: 200px;
+  width: auto;
+  min-width: auto;
   height: auto;
   min-height: auto;
+  max-width: 200px;
+  max-height: auto;
 
   max-height: 200px;
   max-width: auto;

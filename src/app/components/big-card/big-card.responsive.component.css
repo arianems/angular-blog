@@ -1,0 +1,39 @@
+@media screen and (max-width: 390px) {
+  .container__big-card {
+    border: solid rgb(19, 18, 18, 0.28) 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .big-card__title {
+    margin-top: 15px;
+  }
+
+  .container__big-card .big-card__title > h1 {
+    font-size: large;
+  }
+
+
+.big-card__photo > a > img {
+  width: 100%;
+  min-width: auto;
+  height: auto;
+  min-height: auto;
+}
+
+
+}
+
+
+
+
+
+
+
