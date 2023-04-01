@@ -6,6 +6,7 @@ flex-direction: row;
 ul > li {
   margin-right: 30px;
   list-style: none;
+  font-weight: bold;
 }
 
 ul > li > a {

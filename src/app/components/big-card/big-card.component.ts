@@ -14,6 +14,7 @@ export class BigCardComponent implements OnInit {
   @Input() coverPhoto: string = '';
   @Input() cardTitle: string = '';
   @Input() cardDescription: string = '';
+  @Input() id:string="0";
   //#endregion
 
   constructor() {}

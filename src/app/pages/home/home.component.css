@@ -18,8 +18,3 @@ justify-content: center;
   height:auto;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}

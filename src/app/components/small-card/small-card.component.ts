@@ -9,9 +9,9 @@ export class SmallCardComponent implements OnInit {
 
   @Input() cardPhoto:string='';
   @Input() cardTitle:string='';
+  @Input() id:string='';
 
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
   }
 
 

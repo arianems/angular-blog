@@ -1,7 +1,7 @@
 <div class="container__small-card">
   <div class="container__small-card-content">
     <div class="small-card__photo">
-      <a href="">
+      <a [routerLink]="['content', id]" routerLinkActive="router-link-active" >
         <img
         [src]="cardPhoto"
         alt=""
